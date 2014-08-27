@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C860170F19AE48FD00DE9B29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C860170E19AE48FD00DE9B29 /* Cocoa.framework */; };
+		C860171919AE48FD00DE9B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C860171719AE48FD00DE9B29 /* InfoPlist.strings */; };
+		C860171B19AE48FD00DE9B29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C860171A19AE48FD00DE9B29 /* main.m */; };
+		C860171F19AE48FD00DE9B29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C860171D19AE48FD00DE9B29 /* Credits.rtf */; };
+		C860172219AE48FD00DE9B29 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C860172119AE48FD00DE9B29 /* SPAppDelegate.m */; };
+		C860172519AE48FD00DE9B29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C860172319AE48FD00DE9B29 /* MainMenu.xib */; };
+		C860172719AE48FD00DE9B29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C860172619AE48FD00DE9B29 /* Images.xcassets */; };
+		C860172E19AE48FD00DE9B29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C860172D19AE48FD00DE9B29 /* XCTest.framework */; };
+		C860172F19AE48FD00DE9B29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C860170E19AE48FD00DE9B29 /* Cocoa.framework */; };
+		C860173719AE48FD00DE9B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C860173519AE48FD00DE9B29 /* InfoPlist.strings */; };
+		C860173919AE48FD00DE9B29 /* ssh_problemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C860173819AE48FD00DE9B29 /* ssh_problemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C860173019AE48FD00DE9B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C860170319AE48FC00DE9B29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C860170A19AE48FC00DE9B29;
+			remoteInfo = "ssh-problem";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C860170B19AE48FC00DE9B29 /* ssh-problem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ssh-problem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C860170E19AE48FD00DE9B29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C860171119AE48FD00DE9B29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C860171219AE48FD00DE9B29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C860171319AE48FD00DE9B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C860171619AE48FD00DE9B29 /* ssh-problem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ssh-problem-Info.plist"; sourceTree = "<group>"; };
+		C860171819AE48FD00DE9B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C860171A19AE48FD00DE9B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C860171C19AE48FD00DE9B29 /* ssh-problem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ssh-problem-Prefix.pch"; sourceTree = "<group>"; };
+		C860171E19AE48FD00DE9B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C860172019AE48FD00DE9B29 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		C860172119AE48FD00DE9B29 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		C860172419AE48FD00DE9B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C860172619AE48FD00DE9B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C860172C19AE48FD00DE9B29 /* ssh-problemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ssh-problemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C860172D19AE48FD00DE9B29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C860173419AE48FD00DE9B29 /* ssh-problemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ssh-problemTests-Info.plist"; sourceTree = "<group>"; };
+		C860173619AE48FD00DE9B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C860173819AE48FD00DE9B29 /* ssh_problemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ssh_problemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C860170819AE48FC00DE9B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860170F19AE48FD00DE9B29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C860172919AE48FD00DE9B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860172F19AE48FD00DE9B29 /* Cocoa.framework in Frameworks */,
+				C860172E19AE48FD00DE9B29 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C860170219AE48FC00DE9B29 = {
+			isa = PBXGroup;
+			children = (
+				C860171419AE48FD00DE9B29 /* ssh-problem */,
+				C860173219AE48FD00DE9B29 /* ssh-problemTests */,
+				C860170D19AE48FC00DE9B29 /* Frameworks */,
+				C860170C19AE48FC00DE9B29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C860170C19AE48FC00DE9B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C860170B19AE48FC00DE9B29 /* ssh-problem.app */,
+				C860172C19AE48FD00DE9B29 /* ssh-problemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C860170D19AE48FC00DE9B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C860170E19AE48FD00DE9B29 /* Cocoa.framework */,
+				C860172D19AE48FD00DE9B29 /* XCTest.framework */,
+				C860171019AE48FD00DE9B29 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C860171019AE48FD00DE9B29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C860171119AE48FD00DE9B29 /* AppKit.framework */,
+				C860171219AE48FD00DE9B29 /* CoreData.framework */,
+				C860171319AE48FD00DE9B29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C860171419AE48FD00DE9B29 /* ssh-problem */ = {
+			isa = PBXGroup;
+			children = (
+				C860172019AE48FD00DE9B29 /* SPAppDelegate.h */,
+				C860172119AE48FD00DE9B29 /* SPAppDelegate.m */,
+				C860172319AE48FD00DE9B29 /* MainMenu.xib */,
+				C860172619AE48FD00DE9B29 /* Images.xcassets */,
+				C860171519AE48FD00DE9B29 /* Supporting Files */,
+			);
+			path = "ssh-problem";
+			sourceTree = "<group>";
+		};
+		C860171519AE48FD00DE9B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C860171619AE48FD00DE9B29 /* ssh-problem-Info.plist */,
+				C860171719AE48FD00DE9B29 /* InfoPlist.strings */,
+				C860171A19AE48FD00DE9B29 /* main.m */,
+				C860171C19AE48FD00DE9B29 /* ssh-problem-Prefix.pch */,
+				C860171D19AE48FD00DE9B29 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C860173219AE48FD00DE9B29 /* ssh-problemTests */ = {
+			isa = PBXGroup;
+			children = (
+				C860173819AE48FD00DE9B29 /* ssh_problemTests.m */,
+				C860173319AE48FD00DE9B29 /* Supporting Files */,
+			);
+			path = "ssh-problemTests";
+			sourceTree = "<group>";
+		};
+		C860173319AE48FD00DE9B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C860173419AE48FD00DE9B29 /* ssh-problemTests-Info.plist */,
+				C860173519AE48FD00DE9B29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C860170A19AE48FC00DE9B29 /* ssh-problem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C860173C19AE48FD00DE9B29 /* Build configuration list for PBXNativeTarget "ssh-problem" */;
+			buildPhases = (
+				C860170719AE48FC00DE9B29 /* Sources */,
+				C860170819AE48FC00DE9B29 /* Frameworks */,
+				C860170919AE48FC00DE9B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ssh-problem";
+			productName = "ssh-problem";
+			productReference = C860170B19AE48FC00DE9B29 /* ssh-problem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C860172B19AE48FD00DE9B29 /* ssh-problemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C860173F19AE48FD00DE9B29 /* Build configuration list for PBXNativeTarget "ssh-problemTests" */;
+			buildPhases = (
+				C860172819AE48FD00DE9B29 /* Sources */,
+				C860172919AE48FD00DE9B29 /* Frameworks */,
+				C860172A19AE48FD00DE9B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C860173119AE48FD00DE9B29 /* PBXTargetDependency */,
+			);
+			name = "ssh-problemTests";
+			productName = "ssh-problemTests";
+			productReference = C860172C19AE48FD00DE9B29 /* ssh-problemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C860170319AE48FC00DE9B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Anton Morozov";
+				TargetAttributes = {
+					C860172B19AE48FD00DE9B29 = {
+						TestTargetID = C860170A19AE48FC00DE9B29;
+					};
+				};
+			};
+			buildConfigurationList = C860170619AE48FC00DE9B29 /* Build configuration list for PBXProject "ssh-problem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C860170219AE48FC00DE9B29;
+			productRefGroup = C860170C19AE48FC00DE9B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C860170A19AE48FC00DE9B29 /* ssh-problem */,
+				C860172B19AE48FD00DE9B29 /* ssh-problemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C860170919AE48FC00DE9B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860171919AE48FD00DE9B29 /* InfoPlist.strings in Resources */,
+				C860172719AE48FD00DE9B29 /* Images.xcassets in Resources */,
+				C860171F19AE48FD00DE9B29 /* Credits.rtf in Resources */,
+				C860172519AE48FD00DE9B29 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C860172A19AE48FD00DE9B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860173719AE48FD00DE9B29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C860170719AE48FC00DE9B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860171B19AE48FD00DE9B29 /* main.m in Sources */,
+				C860172219AE48FD00DE9B29 /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C860172819AE48FD00DE9B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C860173919AE48FD00DE9B29 /* ssh_problemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C860173119AE48FD00DE9B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C860170A19AE48FC00DE9B29 /* ssh-problem */;
+			targetProxy = C860173019AE48FD00DE9B29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C860171719AE48FD00DE9B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C860171819AE48FD00DE9B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C860171D19AE48FD00DE9B29 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C860171E19AE48FD00DE9B29 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C860172319AE48FD00DE9B29 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C860172419AE48FD00DE9B29 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C860173519AE48FD00DE9B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C860173619AE48FD00DE9B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C860173A19AE48FD00DE9B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C860173B19AE48FD00DE9B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C860173D19AE48FD00DE9B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ssh-problem/ssh-problem-Prefix.pch";
+				INFOPLIST_FILE = "ssh-problem/ssh-problem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C860173E19AE48FD00DE9B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ssh-problem/ssh-problem-Prefix.pch";
+				INFOPLIST_FILE = "ssh-problem/ssh-problem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C860174019AE48FD00DE9B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ssh-problem.app/Contents/MacOS/ssh-problem";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ssh-problem/ssh-problem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ssh-problemTests/ssh-problemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C860174119AE48FD00DE9B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ssh-problem.app/Contents/MacOS/ssh-problem";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ssh-problem/ssh-problem-Prefix.pch";
+				INFOPLIST_FILE = "ssh-problemTests/ssh-problemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C860170619AE48FC00DE9B29 /* Build configuration list for PBXProject "ssh-problem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C860173A19AE48FD00DE9B29 /* Debug */,
+				C860173B19AE48FD00DE9B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C860173C19AE48FD00DE9B29 /* Build configuration list for PBXNativeTarget "ssh-problem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C860173D19AE48FD00DE9B29 /* Debug */,
+				C860173E19AE48FD00DE9B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C860173F19AE48FD00DE9B29 /* Build configuration list for PBXNativeTarget "ssh-problemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C860174019AE48FD00DE9B29 /* Debug */,
+				C860174119AE48FD00DE9B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C860170319AE48FC00DE9B29 /* Project object */;
+}
